@@ -75,10 +75,10 @@ header, footer {
   height: 100%;
 }
 
-.about .shedule {
+.about, .shedule, .learning {
   background-color: #eee;
 }
-.about .shedule .itd_circle {
+.about .itd_circle, .shedule .itd_circle, .learning .itd_circle {
   margin: 0 auto 15px;
   width: 70px;
   height: 70px;
@@ -88,11 +88,11 @@ header, footer {
   justify-content: center;
   align-items: center;
 }
-.about .shedule i {
+.about i, .shedule i, .learning i {
   font-size: 25px;
   color: var(--color2);
 }
-.about .shedule .line {
+.about .line, .shedule .line, .learning .line {
   width: 100px;
   height: 3px;
   background-color: var(--color1);
@@ -107,6 +107,11 @@ header, footer {
 .accordion-button {
   color: var(--bs-blue);
   background-color: var(--bs-white);
+}
+
+.learning h5 {
+  padding: 10px;
+  border: 3px solid var(--color1);
 }
 
 .color1 {
