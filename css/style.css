@@ -75,10 +75,10 @@ header, footer {
   height: 100%;
 }
 
-.about {
+.about .shedule {
   background-color: #eee;
 }
-.about .itd_circle {
+.about .shedule .itd_circle {
   margin: 0 auto 15px;
   width: 70px;
   height: 70px;
@@ -88,11 +88,11 @@ header, footer {
   justify-content: center;
   align-items: center;
 }
-.about i {
+.about .shedule i {
   font-size: 25px;
   color: var(--color2);
 }
-.about .line {
+.about .shedule .line {
   width: 100px;
   height: 3px;
   background-color: var(--color1);
@@ -102,6 +102,11 @@ header, footer {
 .forwhom h5 {
   padding: 20px;
   border: 3px solid var(--color1);
+}
+
+.accordion-button {
+  color: var(--bs-blue);
+  background-color: var(--bs-white);
 }
 
 .color1 {

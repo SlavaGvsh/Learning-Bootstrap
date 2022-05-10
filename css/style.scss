@@ -69,7 +69,7 @@ header, footer{
 }
 
 //About the course
-.about{
+.about .shedule{
   background-color: #eee;
   .itd_circle {
     margin: 0 auto 15px;
@@ -99,7 +99,10 @@ header, footer{
   border: 3px solid var(--color1);
 
 }
-
+.accordion-button{
+  color: var(--bs-blue);
+  background-color: var(--bs-white) ;
+}
 
 
 //Color
