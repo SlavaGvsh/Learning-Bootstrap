@@ -75,10 +75,12 @@ header, footer {
   height: 100%;
 }
 
-.about, .shedule, .learning {
+.about, .shedule,
+.learning, .reviews {
   background-color: #eee;
 }
-.about .itd_circle, .shedule .itd_circle, .learning .itd_circle {
+.about .itd_circle, .shedule .itd_circle,
+.learning .itd_circle, .reviews .itd_circle {
   margin: 0 auto 15px;
   width: 70px;
   height: 70px;
@@ -88,11 +90,13 @@ header, footer {
   justify-content: center;
   align-items: center;
 }
-.about i, .shedule i, .learning i {
+.about i, .shedule i,
+.learning i, .reviews i {
   font-size: 25px;
   color: var(--color2);
 }
-.about .line, .shedule .line, .learning .line {
+.about .line, .shedule .line,
+.learning .line, .reviews .line {
   width: 100px;
   height: 3px;
   background-color: var(--color1);
@@ -120,6 +124,10 @@ header, footer {
 
 .its-img {
   max-width: 280px;
+}
+
+.reviews-color {
+  background-color: var(--color2);
 }
 
 .color1 {

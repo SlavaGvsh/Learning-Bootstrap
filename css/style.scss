@@ -69,7 +69,8 @@ header, footer{
 }
 
 //About the course
-.about, .shedule, .learning{
+.about, .shedule,
+.learning, .reviews{
   background-color: #eee;
   .itd_circle {
     margin: 0 auto 15px;
@@ -113,6 +114,11 @@ header, footer{
 }
 .its-img{
   max-width: 280px;
+}
+//Отзывы о авторе
+
+.reviews-color{
+  background-color: var(--color2);
 }
 
 //Color
