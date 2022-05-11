@@ -2,7 +2,7 @@
   --color1:#05b1b1;
   --color2: #52339a;
 }
-header, footer, section{
+section{
   padding: 30px;
 }
 header{
@@ -120,7 +120,10 @@ header, footer{
 .reviews-color{
   background-color: var(--color2);
 }
-
+//footer
+footer{
+  padding: 30px 0;
+}
 //Color
 .color1{
   color: var(--color1);
